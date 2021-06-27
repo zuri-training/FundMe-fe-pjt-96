@@ -130,9 +130,8 @@ input:placeholder-shown {
   .payment {
     max-width: 90%;
   }
-
   .element {
-    left: 0;
+    max-width: 100%;
   }
 
   .payment-img {
