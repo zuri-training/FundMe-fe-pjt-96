@@ -60,6 +60,11 @@ input {
   border: 1px solid #339658;
   border-radius: 30px;
   padding: 10px 20px;
+  background-size: 30px;
+  background-position-x: 10px;
+  background-position-y: 10px;
+  background-repeat: no-repeat;
+  text-indent: 30px;
 }
 
 .payment-text {
@@ -112,18 +117,25 @@ input {
   z-index: -1;
 }
 
-.fontAwesome {
-  font-family: "Poppins", "FontAwesome", sans-serif;
+input:focus {
+  background-image: none;
+  text-indent: 0px;
 }
 
-input:placeholder-shown {
-  color: transparent;
-  background: #339658; /* you may need to adjust the 1.2em based on your case */
-  -webkit-background-clip: text;
-  background-clip: text;
-  font-size: 18px;
-  font-weight: 300;
-  -webkit-text-fill-color: transparent;
+.name {
+  background-image: url("../images/name.svg");
+}
+
+.email {
+  background-image: url("../images/email.svg");
+}
+
+.phone {
+  background-image: url("../images/phone.svg");
+}
+
+.address {
+  background-image: url("../images/address.svg");
 }
 
 @media screen and (max-width: 768px) {
@@ -152,11 +164,8 @@ input:placeholder-shown {
   input {
     height: 40px;
     font-size: 16px;
-    margin-top: 20px;
-    outline: none;
-    border: 1px solid #339658;
-    border-radius: 30px;
-    padding: 10px 20px;
+    background-size: 20px;
+    text-indent: 20px;
   }
 
   .payment-text {
@@ -186,10 +195,6 @@ input:placeholder-shown {
   .form-element {
     position: absolute;
     right: 0;
-  }
-
-  input:placeholder-shown {
-    font-size: 16px;
   }
 }
 
