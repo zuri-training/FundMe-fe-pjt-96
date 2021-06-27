@@ -87,7 +87,8 @@ body {
 }
 
 .options-text{
-  font-size: 15px;
+  font-size: 18px;
+  line-height: 155.5%
 }
 .campaign-button{
   border: none;
@@ -96,9 +97,10 @@ body {
   color: var(--bg-color);
   padding: 10px 30px;
   width: 35%;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
   margin-top: 40px;
+  height: 50px;
 }
 
 /*Footer*/
@@ -145,14 +147,15 @@ body {
   
   
   .options-text{
-    font-size: 13px;
+    font-size: 14px;
   }
   .campaign-button{
     border-radius: 15px;
     padding: 6px 15px;
-    font-size: 15px;
+    font-size: 18px;
     margin-top: 18px;
-    width: 30%;
+    width: 40%;
+    height: 40px;
   }
 
 }
@@ -203,11 +206,12 @@ body {
   
   
   .options-text{
-    font-size: 18px;
+    font-size: 20px;
   }
   .campaign-button{
     padding: 6px 18px;
-    font-size: 14px;
+    font-size: 16px;
+    height: 40px;
   }
   
 }
