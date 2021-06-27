@@ -1,3 +1,0 @@
-//Slide show
-
-//Payment gateway
