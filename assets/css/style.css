@@ -15,6 +15,7 @@
 body {
   background-color: var(--bg-color);
   font-family: "Poppins", sans-serif;
+  color: var(--text-color);
 }
 
 /*Header*/
@@ -23,4 +24,276 @@ body {
 
 /*Donation Campaign Page*/
 
+/*Payment Page*/
+.payment {
+  max-width: 80%;
+  margin: 40px auto;
+}
+
+.element {
+  position: absolute;
+  top: 20%;
+  left: 1%;
+  z-index: -1;
+}
+
+.payment-img {
+  border-radius: 20px;
+}
+
+.payment-content {
+  width: 70%;
+}
+
+.payment-heading {
+  margin: 25px 0;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+input {
+  text-indent: 10px;
+  height: 60px;
+  font-size: 20px;
+  margin-top: 20px;
+  outline: none;
+  border: 1px solid #339658;
+  border-radius: 30px;
+  padding: 10px 20px;
+  background-size: 30px;
+  background-position-x: 10px;
+  background-position-y: 10px;
+  background-repeat: no-repeat;
+  text-indent: 30px;
+}
+
+.payment-text {
+  line-height: 155.5%;
+  font-size: 24px;
+}
+
+.phone-address {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name,
+.email {
+  width: 100%;
+}
+
+.phone,
+.address {
+  width: 48%;
+}
+
+.btn-submit {
+  width: 300px;
+  margin: 20px 0;
+  height: 60px;
+  background-color: #339658;
+  color: var(--bg-color);
+  border-radius: 55px;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+  transform: background-color 3s ease-in-out;
+}
+
+.btn-submit:hover {
+  background-color: #419961;
+}
+
+.form-element {
+  position: absolute;
+  right: 0;
+}
+
+.header-element {
+  position: absolute;
+  top: -10%;
+  z-index: -1;
+}
+
+input:focus {
+  background-image: none;
+  text-indent: 0px;
+}
+
+.name {
+  background-image: url("../images/name.svg");
+}
+
+.email {
+  background-image: url("../images/email.svg");
+}
+
+.phone {
+  background-image: url("../images/phone.svg");
+}
+
+.address {
+  background-image: url("../images/address.svg");
+}
+
+@media screen and (max-width: 768px) {
+  .payment {
+    max-width: 90%;
+  }
+  .element {
+    max-width: 100%;
+  }
+
+  .payment-img {
+    width: 100%;
+    height: 260px;
+    object-position: center;
+  }
+
+  .payment-content {
+    width: 90%;
+  }
+
+  .payment-heading {
+    margin: 20px 0;
+    font-size: 26px;
+  }
+
+  input {
+    height: 40px;
+    font-size: 16px;
+    background-size: 20px;
+    text-indent: 20px;
+  }
+
+  .payment-text {
+    line-height: 155.5%;
+    font-size: 18px;
+  }
+
+  .phone-address {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .name,
+  .email,
+  .phone,
+  .address {
+    width: 100%;
+  }
+
+  .btn-submit {
+    margin: 30px 0;
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .form-element {
+    display: none;
+  }
+}
+
 /*Footer*/
+.footer {
+  background: linear-gradient(51.12deg, #395c43 10.64%, #0c9b45 96.84%);
+  color: var(--bg-color);
+}
+
+.footer-content {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 0;
+}
+
+.footer-links {
+  list-style: none;
+}
+
+.footer-links li {
+  margin: 10px 0;
+}
+
+.footer-link {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--bg-color);
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+.mobile-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.company {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.grid-one,
+.grid-two,
+.grid-three,
+.grid-four {
+  max-width: 25%;
+}
+
+.grid-one > * {
+  margin-bottom: 10px;
+}
+
+.footer-text,
+.footer-rights {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.footer-rights {
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-content {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+    margin-left: 10px;
+  }
+
+  .footer-link {
+    font-size: 14px;
+  }
+
+  .company {
+    font-size: 16px;
+  }
+
+  .grid-one,
+  .grid-two,
+  .grid-three,
+  .grid-four {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+  .grid-one > * {
+    margin-bottom: 5px;
+  }
+
+  .footer-text,
+  .footer-rights {
+    font-size: 14px;
+  }
+
+  .footer-rights {
+    margin-bottom: 15px;
+  }
+}
