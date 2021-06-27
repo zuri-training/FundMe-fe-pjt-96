@@ -52,8 +52,6 @@ body {
 }
 
 input {
-  background-size: contain;
-  background-repeat: no-repeat;
   text-indent: 10px;
   height: 60px;
   font-size: 20px;
@@ -126,6 +124,74 @@ input:placeholder-shown {
   font-size: 18px;
   font-weight: 300;
   -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 768px) {
+  .payment {
+    max-width: 90%;
+  }
+
+  .element {
+    left: 0;
+  }
+
+  .payment-img {
+    width: 100%;
+    height: 260px;
+    object-position: center;
+  }
+
+  .payment-content {
+    width: 90%;
+  }
+
+  .payment-heading {
+    margin: 20px 0;
+    font-size: 26px;
+  }
+
+  input {
+    height: 40px;
+    font-size: 16px;
+    margin-top: 20px;
+    outline: none;
+    border: 1px solid #339658;
+    border-radius: 30px;
+    padding: 10px 20px;
+  }
+
+  .payment-text {
+    line-height: 155.5%;
+    font-size: 18px;
+  }
+
+  .phone-address {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .name,
+  .email,
+  .phone,
+  .address {
+    width: 100%;
+  }
+
+  .btn-submit {
+    margin: 30px 0;
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .form-element {
+    position: absolute;
+    right: 0;
+  }
+
+  input:placeholder-shown {
+    font-size: 16px;
+  }
 }
 
 /*Footer*/
