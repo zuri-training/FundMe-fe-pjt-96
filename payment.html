@@ -1,34 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Fund Me | PJT-96</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <title>Fund Me | PJT-96</title>
-</head>
+  <body>
+    <!--Header and Navbar-->
+    <header class="header">
+      <nav class="nav-bar">
+        <img src="" alt="" class="fund-me-logo" />
 
-<body>
-  <!--Header and Navbar-->
-  <header class="header">
-    <nav class="nav-bar">
-      <img src="" alt="" class="fund-me-logo">
+        <div class="apple-android nav-link">
+          <img src="" alt="" class="android-logo" />
+          <img src="" alt="" class="apple-logo" />
+        </div>
+      </nav>
+    </header>
 
-      <div class="apple-android nav-link">
-        <img src="" alt="" class="android-logo">
-        <img src="" alt="" class="apple-logo">
-      </div>
-    </nav>
-  </header>
+    <!--Payment page content goes here-->
+    <div class="payment-hero">
+      <img
+        src="./assets/images/campaign-1.jpg"
+        alt=" campaign-1"
+        class="paymeny-hero-img"
+      />
+      <h1 class="payment-hero-heading">Donate To The Impact Foundation</h1>
+      <h2 class="payment-hero-text">
+        Project 1000 is a donation goal aimed at sponsoring 1000 kids through
+        school in the rural community of Makoko. Parents in this neighbourhood
+        struggle to place education as an importance under the weight of daily
+        survival due to the low income earnings associated with the community.
+        The Impact foundation has been created to support these parents and
+        encourage the children.
+      </h2>
+      <form id="paymentForm">
+        <input type="text" placeholder="name" required />
+        <input type="email" placeholder="email" id="email-address" required />
+        <input type="tel" placeholder="enter a donation" id="amount" required />
+        <input type="text" placeholder="Telephone" required />
+        <input type="text" placeholder="categories" required />
+        <button
+          class=".donation-form-btn"
+          type="submit"
+          onclick="payWithPaystack()"
+        >
+          donate
+        </button>
+      </form>
+    </div>
 
-  <!--Payment page content goes here-->
+    <footer class="footer"></footer>
 
-  <footer class="footer">
-
-  </footer>
-
-  <script src="app.js"></script>
-</body>
-
+    <script src="app.js"></script>
+  </body>
 </html>
