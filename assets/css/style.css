@@ -92,11 +92,11 @@ body {
 }
 .campaign-button{
   border: none;
-  border-radius: 20px;
+  border-radius: 25px;
   background-color: var(--primary-color);
   color: var(--bg-color);
   padding: 10px 30px;
-  width: 35%;
+  width: 40%;
   font-size: 18px;
   font-weight: 300;
   margin-top: 40px;
@@ -150,12 +150,12 @@ body {
     font-size: 14px;
   }
   .campaign-button{
-    border-radius: 15px;
+    border-radius: 20px;
     padding: 6px 15px;
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 18px;
-    width: 40%;
-    height: 40px;
+    width: 35%;
+    height: 35px;
   }
 
 }
