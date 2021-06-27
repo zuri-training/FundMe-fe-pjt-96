@@ -32,7 +32,7 @@ body {
 
 .element {
   position: absolute;
-  top: 20%;
+  bottom: 20%;
   left: 1%;
   z-index: -1;
 }
@@ -201,6 +201,12 @@ input:focus {
 .footer {
   background: linear-gradient(51.12deg, #395c43 10.64%, #0c9b45 96.84%);
   color: var(--bg-color);
+  position: relative;
+}
+
+.footer-element {
+  position: absolute;
+  bottom: 0;
 }
 
 .footer-content {
@@ -266,6 +272,12 @@ input:focus {
     flex-direction: column;
     padding: 15px 0;
     margin-left: 10px;
+  }
+
+  .footer-element {
+    position: absolute;
+    bottom: 0;
+    right: 0;
   }
 
   .footer-link {
