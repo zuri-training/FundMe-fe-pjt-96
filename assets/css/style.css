@@ -19,6 +19,90 @@ body {
   scroll-behavior: smooth;
 }
 
+.header{
+  position: absolute;
+  width: 1154px;
+  height: 40px;
+  left: 204px;
+  top: 50px;
+  right: 242px;
+}
+
+.fund-me-logo .android-logo .apple-logo img{
+  height: 40px;
+
+}
+
+.nav-bar{
+  display: flex;
+  align-items: center;
+  width: 1154px;
+  height: 40px;
+  background-color: #FFFFFF;
+}
+
+.fund-me-logo{
+  float: left;
+}
+
+.android-logo .apple-logo{
+  float: left;
+}
+
+.head{
+  position: absolute;
+  top: 180px;
+  left: 264px;
+  right: 605px;
+  height: 144px;
+  width: 749px;
+  background-color: white;
+
+}
+
+.headword{
+  font: "Poppins";
+  font-weight: 500;
+  font-style: normal;
+  size: 32px;
+  line-height: 48px;
+}
+
+.sub{
+  position: absolute;
+  top: 340px;
+  left: 264px;
+  right: 835px;
+  height: 66px;
+  width: 510px;
+  background-color: white;
+}
+
+.subword{
+  font: "Poppins";
+  font-weight: 300;
+  font-style: normal;
+  size: 22px;
+  line-height: 33px;
+}
+
+.topic{
+  position: absolute;
+  top: 436px;
+  left: 240px;
+  right: 1132px;
+  height: 56px;
+  width: 228px;
+  background-color: white;
+}
+
+.topicword{
+  font: "Poppins";
+  font-weight: 700;
+  font-style: normal;
+  size: 24px;
+  line-height: 56px;
+}
 /*Header*/
 
 /*Landing Page*/
